@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;it.unipv.pois.mezzi.Imbarcazioni&apos; to &apos;Imbarcazione&apos;&#x0A;- Original project: &apos;MezziPubblici&apos;&#x0A;- Original element: &apos;it.unipv.pois.mezzi.Imbarcazioni&apos;&#x0A;- Renamed element: &apos;it.unipv.pois.mezzi.Imbarcazione&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Imbarcazioni&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;it.unipv.pois.mezzi{Imbarcazioni.java[Imbarcazioni" matchStrategy="1" name="Imbarcazione" qualified="false" references="true" similarDeclarations="false" stamp="1760104771619" textual="false" version="1.0"/>
-</session>

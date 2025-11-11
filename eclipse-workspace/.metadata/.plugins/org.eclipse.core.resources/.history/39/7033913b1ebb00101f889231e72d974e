@@ -1,7 +1,0 @@
-package it.unipv.pois.Banca.mvc.view;
-
-import javax.swing.JPanel;
-
-public class AddUserPanel extends JPanel {
-
-}

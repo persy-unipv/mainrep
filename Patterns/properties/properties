@@ -1,9 +1,0 @@
-#valuable.adapter.class.name=it.unipv.ingsfw.pattern.adapter.USDollarAdapterImpl
-#valuable.adapter.class.name=it.unipv.ingsfw.pattern.adapter.SterlinAdapterImpl
-
-equino.adapter.class.name=it.unipv.ingsfw.pattern.adapter.quadrupedi.equini.EquinoAdapter
-bovino.adapter.class.name=it.unipv.ingsfw.pattern.adapter.quadrupedi.bovini.BovinoAdapter
-
-
-#discount.strategy.class.name=it.unipv.ingsfw.pattern.strategy.XmasStrategy
-discount.strategy.class.name=it.unipv.ingsfw.pattern.composite.CompositeXmasGoodCustomer
