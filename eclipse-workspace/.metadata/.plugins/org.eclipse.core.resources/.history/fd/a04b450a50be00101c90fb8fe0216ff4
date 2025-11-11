@@ -1,0 +1,15 @@
+package it.unipv.pois.Banca.mvc.view;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class WebAccountPanel extends JPanel {
+	private JLabel istruct;
+	private JTextField cf; 
+	private JTextField persona; 
+	
+	
+	
+
+}

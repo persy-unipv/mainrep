@@ -1,0 +1,10 @@
+package it.unipv.pois.Banca.mvc.view;
+
+import javax.swing.JFrame;
+
+public class AccountableFrame extends JFrame {
+	AccountablePanel acc_panel;
+	SalaryPanel salary_panel;
+	SubscriptionPanel sub_panel;
+
+}

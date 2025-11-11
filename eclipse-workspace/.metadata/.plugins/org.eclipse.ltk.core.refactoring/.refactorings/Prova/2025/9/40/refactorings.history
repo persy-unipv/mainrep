@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;Prova&apos;&#x0A;- Original project: &apos;Prova&apos;&#x0A;- Original element: &apos;Prova/src/prova&apos;" description="Delete element" element1="/src&lt;prova" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1759245733102" subPackages="false" version="1.0"/>&#x0A;<refactoring comment="Rename resource &apos;Prova/prova.java&apos; to &apos;HelloWorldApp.java&apos;" description="Rename resource &apos;prova.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="prova.java" name="HelloWorldApp.java" stamp="1759251241332" updateReferences="true"/>
+</session>

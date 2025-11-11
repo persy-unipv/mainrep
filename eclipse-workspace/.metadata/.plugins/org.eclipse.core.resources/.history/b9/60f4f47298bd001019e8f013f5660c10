@@ -1,0 +1,53 @@
+package it.unipv.pois.Banca.mvc.view;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class AddUserPanel extends JPanel {
+	
+	private JLabel istr;
+	private JTextField nome;
+	private JTextField cognome;
+	private JTextField cf;
+	private JButton conferma_inserimento;
+	private JButton to_conto;
+	
+	public AddUserPanel() {
+		super();
+		istr = new JLabel("Inserisci il tuo nome, cognome e il tuo codice fiscale. Se sei già registrato vai alla sezione dei conti");
+		nome = new JTextField("nome");
+		cognome =  new JTextField("cognome");
+		cf = new JTextField("codice fiscale");
+		to_conto = new JButton("Vai ai cointi");
+		
+		
+		conferma_inserimento = new JButton("conferma dati inseriti");
+		
+		JPanel user_insert  = new JPanel();
+		JPanel button_panel = new JPanel();
+		
+		user_insert.add(nome);
+		user_insert.add(cognome);
+		user_insert.add(cf);
+		button_panel.add(conferma_inserimento);
+		button_panel.add(to_conto);
+		
+		setLayout(new BorderLayout());
+		add(user_insert,BorderLayout.CENTER);
+		add(istr,BorderLayout.NORTH);
+		add(button_panel,BorderLayout.SOUTH);
+		
+	
+		
+	}
+
+	
+	
+	
+	
+
+}

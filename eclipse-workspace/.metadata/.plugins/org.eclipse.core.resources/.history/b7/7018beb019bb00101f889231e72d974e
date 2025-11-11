@@ -1,0 +1,7 @@
+package it.unipv.pois.Banca.mvc.view;
+
+import javax.swing.JPanel;
+
+public class WebAccountPanel extends JPanel {
+
+}

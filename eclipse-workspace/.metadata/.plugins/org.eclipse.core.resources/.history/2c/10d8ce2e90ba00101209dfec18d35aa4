@@ -1,0 +1,27 @@
+package it.unipv.pois.Banca.mvc.view;
+
+
+import java.util.ArrayList;
+
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class WelcomePanel extends JPanel{
+	
+	private JLabel welcome_label; 
+	private ArrayList<String> options;
+	private JComboBox<ArrayList> option_list; 
+	
+	
+	public WelcomePanel() {
+		welcome_label = new JLabel("Benvenuto, seleziona una scelta per effettuare una operazione");
+		
+		
+	}
+
+
+	
+
+	
+}

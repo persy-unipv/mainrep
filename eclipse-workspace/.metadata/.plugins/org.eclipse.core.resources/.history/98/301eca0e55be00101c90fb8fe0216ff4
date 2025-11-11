@@ -1,0 +1,13 @@
+package it.unipv.pois.Banca.mvc.view;
+
+public final class Options {
+	static final String [] DEFAULT_OPTIONS = {
+			"Conto Corrente",
+			"Conto Deposito",
+			"Conto Web",
+			"Totale dei saldi dei tuoi conti"
+	};
+	
+	
+	
+}

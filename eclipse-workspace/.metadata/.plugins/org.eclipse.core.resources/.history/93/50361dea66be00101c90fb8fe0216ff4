@@ -1,0 +1,38 @@
+package it.unipv.pois.Banca.mvc.view;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+
+public class SubscriptionPanel extends JPanel {
+	
+	private JTextField data_inizio;
+	private JTextField durata;
+	private JTextField importo;
+	private JTextField nome_sub;
+	private JLabel result;
+	private JLabel istr;
+	private JButton aggiungi;
+	private JButton rimuovi;
+	
+	
+	public SubscriptionPanel() {
+		super();
+		istr = new JLabel("Inserisci importo e nome dell'abbonamento");
+		result = new JLabel();
+		nome = new JTextField("Inserisci il come che identifica il tuo stipendio");
+		importo = new JTextField("Inserisci la cifra del tuo stipendio");
+		aggiungi = new JButton("inserisci stipendio");
+		rimuovi = new JButton("rimuovi stipendio");
+		
+		
+	} 
+	
+	
+	
+	
+	
+
+}
